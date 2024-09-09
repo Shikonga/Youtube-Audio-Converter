@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Audio Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>You<span>Tube</span> Audio Converter</h1>
+        <input type="text" id="videoUrl" placeholder="Paste YouTube video URL here">
+        <div>
+            <label>
+                <input type="radio" name="format" value="audio" checked> Audio Only
+            </label>
+        </div>
+        <button id="convertBtn">Convert</button>
+        
+       
+        <div id="result">
+            <div id="visuals" class="visual-container"><video autoplay muted loop id="backgroundVideo">
+                <source src="videos/mountain fog video.mp4" type="video/mp4">
+            </video></div>
+            <audio id="audioPlayer" controls></audio>
+            <div class="controls">
+                <button id="rewindBtn">Rewind</button>
+                <button id="fasForwardBtn">Fast Forward</button>
+            
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

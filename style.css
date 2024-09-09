@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px auto;
+    width: 400px;
+    background-color: rgb(9, 3, 3);
+    padding: 20px;
+    color: white;
+    border-radius: 25px;
+}
+
+span{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+input, button {
+    width:95%;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button {
+  background-color: rgb(90, 9, 9);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#visuals {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#backgroundVideo{
+   position: absolute;
+   top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 100%; 
+    height: auto;
+    
+
+    
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.controls button {
+    padding: 10px;
+    width: 30%;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+.controls button:hover {
+    background-color: rgb(90, 9, 9);
+    
+}
+
+
+
